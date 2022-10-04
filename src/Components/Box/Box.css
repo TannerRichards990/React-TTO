@@ -1,0 +1,11 @@
+.box {
+  background-color: darkgreen;
+  border: 5px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

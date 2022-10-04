@@ -1,0 +1,9 @@
+.board {
+  width: 800px;
+  height: 800px;
+  color: white;
+  display: grid;
+  border: 5px solid skyblue;
+  border-raidus: 10px;
+  grid-template-columns: repeat(3, 1fr) / repeat(3, 1fr);
+}

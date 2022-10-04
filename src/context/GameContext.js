@@ -3,17 +3,16 @@ import { createContext, useState } from 'react';
 const GameContext = createContext();
 
 const GameProvider = ({ children }) => {
-  const begginingState = new Array(9).fill().map((val, index) => 
-    ({ space: index, content: null }));
+  const beginningState = new Array(9).fill().map((val, index) => 
+    ({ space: index, content: '' }));
 
-  const [board, setBoard] = useState(begginingState);
+  const [board, setBoard] = useState(beginningState);
   const [currentPlayer, setCurrentPlayer] = useState('X');
   const [gameMessage, setGameMessage] = useState(`It's Your Turn ${currentPlayer}`);
   const [active, setActive] = useState(true);
 
   const resetGame = () => {
-    setBoard(begginingState);
-    setCurrentPlayer('X');
+    setBoard(beginningState);
     setGameMessage(`It's Your Turn ${currentPlayer}`);
     setActive(true);
   };

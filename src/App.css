@@ -1,3 +1,16 @@
+body {
+  background-image: url(../public/png-transparent-green-leaf-frame-wood-background-green-leaves-frame-board.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+  text-shadow: 2px 2px 5px black;
+}
+
 .App {
   text-align: center;
 }

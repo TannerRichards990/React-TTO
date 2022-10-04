@@ -4,6 +4,6 @@
   color: white;
   display: grid;
   border: 5px solid skyblue;
-  border-raidus: 10px;
+  border-radius: 10px;
   grid-template-columns: repeat(3, 1fr) / repeat(3, 1fr);
 }

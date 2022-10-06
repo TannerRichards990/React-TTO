@@ -5,7 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
-  border: 5px solid darkgoldenrod;
+  border: 5px solid burlywood;
   border-radius: 10px;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -26,9 +26,9 @@ div{
 
 .box {
   background-color: aquamarine;
-  border: 5px solid darkgoldenrod;
+  border: 5px solid burlywood;
   border-radius: 10px;
-  color: darkgoldenrod;
+  color: burlywood;
   font-size: 3.5rem;
   font-weight: bold;
   display: flex;

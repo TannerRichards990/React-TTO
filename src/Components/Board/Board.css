@@ -1,0 +1,42 @@
+.board {
+  width: 1000px;
+  height: 800px;
+  background-image: url(../../../public/marble-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  border: 5px solid burlywood;
+  border-radius: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  align-content: space-evenly;
+  box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.box {
+  background-color: aquamarine;
+  border: 5px solid burlywood;
+  border-radius: 10px;
+  color: burlywood;
+  font-size: 3.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+}

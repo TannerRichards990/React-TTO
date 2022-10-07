@@ -32,13 +32,13 @@ const GameProvider = ({ children }) => {
   ];
   const checkWinner = () => {
     if (!active) return;
-    console.log('work');
+    
     winningCombos.forEach((combo) => {
       const [a, b, c] = combo;
       if (board[a].content && board[a].content === board[b].content && board[a].content === board[c].content)
       
       {
-        console.log(a, b, c);
+        
         setGameMessage(`${board[a].content} Wins!`);
         setActive(false);
         return;
